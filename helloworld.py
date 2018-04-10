@@ -30,4 +30,28 @@ studentNames = ["mark", "katrina","jessica"]
 print(studentNames[-1])
 print("mark" in studentNames)
 
+#del studentNames[2]
+print(studentNames[1:2])
 
+for n in studentNames:
+    print(n)
+
+
+for index in range(10):
+    print(index)
+
+    print("")
+    print("")
+
+    for index in range(1,10, 1):
+        print(index)
+        break
+
+
+studentNames = ["mark", "katrina","jessica","frank", "grimes", "paul"]
+
+for name in studentNames:
+    if name == "jessica":
+        continue
+        print("found jessica")
+    print("Currently testin " + name)
