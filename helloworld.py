@@ -11,3 +11,7 @@ else:
 
 if number:
     print("truthy")
+
+python_course = True
+if python_course:
+    print("True")
