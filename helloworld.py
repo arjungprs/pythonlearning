@@ -13,5 +13,16 @@ if number:
     print("truthy")
 
 python_course = True
-if python_course:
+if not python_course:
     print("True")
+
+
+if number == 5 and python_course:
+    print("both truthy")
+
+
+a = 1
+b = 2
+
+print("bigger" if a > b else "smaller")
+
