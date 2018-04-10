@@ -26,3 +26,8 @@ b = 2
 
 print("bigger" if a > b else "smaller")
 
+studentNames = ["mark", "katrina","jessica"]
+print(studentNames[-1])
+print("mark" in studentNames)
+
+
