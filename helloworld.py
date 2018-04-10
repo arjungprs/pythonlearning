@@ -50,8 +50,23 @@ for index in range(10):
 
 studentNames = ["mark", "katrina","jessica","frank", "grimes", "paul"]
 
-for name in studentNames:
-    if name == "jessica":
-        continue
-        print("found jessica")
-    print("Currently testin " + name)
+#for name in studentNames:
+   # if name == "jessica":
+    #    continue
+     #   print("found jessica")
+   # print("Currently testin " + name)
+
+
+print("Dictionary")
+studentDict = [{"student_id":100, "student_name":"Mark"},{"student_id":101, "student_name":"James"}]
+print(studentDict[0].keys())
+print(studentDict[0].get("student_name", "Mark"))
+
+student = {
+    "name" : "Mark",
+    "id" : 100
+}
+
+lastName = student["lastname"]
+
+#print(studentDict[0])

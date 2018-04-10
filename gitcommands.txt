@@ -4,3 +4,5 @@ git commit -m "message"
 git add remote origin  urlgoes here
 git status
 git log
+
+git push -u origin master
