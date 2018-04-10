@@ -1,0 +1,6 @@
+git init
+git add
+git commit -m "message"
+git add remote origin  urlgoes here
+git status
+git log
