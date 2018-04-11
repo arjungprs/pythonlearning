@@ -52,4 +52,7 @@ def saveFile(name):
 
 saveFile("arjun")
 
+number = lambda x: x *2;
+print(number(3))
+
 print("EOL")
